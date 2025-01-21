@@ -1,10 +1,14 @@
 # Machine-Learning-Approaches-to-Predicting-Sea-Freight-Carbon-Emissions-
 
 **Background:** Current concerns about climate change require a thorough understanding of carbon emissions across organizations and their mitigation. The transportation industry’s carbon emissions are largely attributed to maritime freight, which resulted in research into predictive models as an approach to predicting and efficiently reducing these emissions. Considering the ability to examine large datasets and identify complex patterns, machine learning techniques present prominent ways for these prediction tasks.
+
 **Objectives:** The focus of this thesis is to assess how well machine learning algorithms predict the carbon emissions from marine freight. It specifically aims to assess the effectiveness of random forests, decision trees, and support vector machines by using the AIS data. By evaluating these methods’ advantages and disadvantages, the study seeks to highlight the best methods for accurate and efficient carbon emission
 prediction in maritime logistics.
+
 **Methods:** The chosen methodology to achieve the objectives of the thesis and address its research questions involved conducting experiments. An overall, preprocessed dataset is gathered that includes a variety of factors affecting maritime freight carbon emissions, including cargo categories, route characteristics, vessel specifications, etc. This data is then used to implement and train decision trees, support
 vector machines, and random forest models. Each model’s predictive ability is evaluated using metrics like Mean square error, root mean square error, mean absolute error, and R²-score.
+
 **Results:** The evaluation of decision trees, support vector machines (SVM), and random forests in comparison shows different patterns of performance for many parameters. Considering their ease of understanding and simplicity, decision trees frequently experience overfitting. Support Vector Model works well with high-dimensional data and is resistant to overfitting, although it may not perform as well on large-scale
 datasets. Using ensemble learning, random forests provide competitive accuracy and generalization performance.
+
 **Conclusions:** The research highlighted how machine learning techniques can predict carbon emissions from marine freight. Random forests, Support vector models, and decision trees all have different pros and cons, which shows how crucial it is to choose the right algorithms depending on the demands of a given application. Future studies could investigate hybrid models or incorporate other features to improve further prediction accuracy and applicability in real-world maritime logistics conditions. Overall, the findings support the advancement of sustainability initiatives in the transportation industry by promoting effective emission reduction strategies and well-informed decision-making.
